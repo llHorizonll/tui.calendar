@@ -390,7 +390,7 @@ var helpers = {
 
         return templates.join('');
     },
-
+    'hideAllDay': false,
     'popupIsAllDay-tmpl': function() {
         return 'All day';
     },

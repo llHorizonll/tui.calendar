@@ -83,6 +83,7 @@ var mmin = Math.min;
  * @property {function} [timegridDisplayPrimaryTime] - The display label template function of primary timezone in time grid
  * @property {function} [timegridDisplayTime] - The display time template function in time grid
  * @property {function} [timegridCurrentTime] - The current time template function in time grid
+ * @property {boolean} [hideAllDay] - hide all day checkbox
  * @property {function} [popupIsAllDay] - The all day checkbox label text template function in the default creation popup
  * @property {function} [popupStateFree] - The free option template function in the state select box of the default creation popup
  * @property {function} [popupStateBusy] - The busy option template function in the state select box of the default creation popup
@@ -264,6 +265,7 @@ var mmin = Math.min;
  *
  *             return templates.join('');
  *         },
+ *         hideAllDay: false;
  *         popupIsAllDay: function() {
  *             return 'All Day';
  *         },

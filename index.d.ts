@@ -114,6 +114,7 @@ export interface ITemplateConfig {
     timegridDisplayPrimaryTime?: (time: ITimeGridHourLabel) => string;
     timegridDisplayTime?: (time: ITimeGridHourLabel) => string;
     timegridCurrentTime?: (hourMarker: ITimezoneHourMarker) => string;
+    hideAllDay?: boolean;
     popupIsAllDay?: () => string;
     popupStateFree?: () => string;
     popupStateBusy?: () => string;
